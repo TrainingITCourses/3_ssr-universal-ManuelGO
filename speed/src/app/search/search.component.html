@@ -1,0 +1,5 @@
+<app-criteria (selection)="onSelection($event)"></app-criteria>
+<br>
+<hr>
+<app-list-criteria  [list]="criterias" (criteriaSelection)="onCriteriaSelection($event)"></app-list-criteria>
+<app-list-result [list]="filtered"></app-list-result>
